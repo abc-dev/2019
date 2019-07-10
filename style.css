@@ -657,6 +657,7 @@ h2.amarelo:before {
   height: 250px;
   background-size: cover;
   background-position: center;
+  background-color: #181818;
   position: relative;
 }
 .palestrantes .box .img span {
@@ -688,6 +689,9 @@ h2.amarelo:before {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  overflow: hidden;
+  text-indent: 110%;
+  white-space: nowrap;
 }
 .palestrantes .box .img a.facebook {
   background-image: url(img/logo/face.svg);
