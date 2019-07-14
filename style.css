@@ -730,6 +730,9 @@ h2.amarelo:before {
   font-size: 1em;
   margin-bottom: 4px;
 }
+.one-word {
+  white-space: nowrap;
+}
 /**** programacao ****/
 #programacao {
   background-color: #fff;
