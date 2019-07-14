@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.6108" y="0.3481" width="35" height="35"></rect>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1144.000000, -3456.000000)">
+            <g id="Group-5" transform="translate(261.000000, 3455.000000)">
+                <g id="Group-15-Copy">
+                    <g id="Group-14">
+                        <g id="Group-2" transform="translate(882.389200, 0.651900)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Rectangle" fill-opacity="0.01" fill="#D8D8D8" xlink:href="#path-1"></use>
+                            <polygon id="Fill-10" fill="#FAFBFB" mask="url(#mask-2)" points="24.8722 12 24.8722 17.963 22.5782 15.669 19.8252 18.422 18.4502 17.045 21.2022 14.293 18.9082 12"></polygon>
+                            <polygon id="Fill-12" fill="#FAFBFB" mask="url(#mask-2)" points="18.421 19.8262 15.669 22.5782 17.962 24.8722 12 24.8722 12 18.9092 14.293 21.2022 17.045 18.4502"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
