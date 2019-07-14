@@ -809,6 +809,132 @@ h2.amarelo:before {
   color: #f5f5f5;
   /*max-width: 650px;*/
 }
+/* Schedule table */
+/* line 10, src/styles/components/_schedule.scss */
+.schedule-table {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+@media (min-width: 62em) {
+  /* line 10, src/styles/components/_schedule.scss */
+  .schedule-table {
+    overflow-x: initial;
+  }
+}
+
+/* line 19, src/styles/components/_schedule.scss */
+.programacao .mobile-disclaimer {
+  /* color: #ababab; */
+  font-style: italic;
+}
+
+@media (min-width: 62em) {
+  /* line 19, src/styles/components/_schedule.scss */
+  .programacao .mobile-disclaimer {
+    display: none;
+  }
+}
+
+/* line 32, src/styles/components/_schedule.scss */
+.schedule-table a {
+  /* color: #fff; */
+  /* border-bottom: solid 0.125rem #fdc200; */
+  /* margin-bottom: 0.625rem; */
+}
+
+/* line 37, src/styles/components/_schedule.scss */
+.schedule-table a:hover,
+.schedule-table a:focus {
+  /* color: #000000; */
+}
+
+/* line 43, src/styles/components/_schedule.scss */
+.schedule-table .title {
+  /* color: #fdc200; */
+  /* font-size: 1.25rem; */
+  border: 0;
+  margin: 0;
+  text-align: left;
+  /* padding-bottom: 0.625rem; */
+}
+
+/* line 52, src/styles/components/_schedule.scss */
+.schedule-table table {
+  width: 100%;
+}
+
+/* line 55, src/styles/components/_schedule.scss */
+.schedule-table table div {
+  opacity: 0.8;
+}
+
+/* line 61, src/styles/components/_schedule.scss */
+.schedule-table thead th {
+  /* font-size: 1.25rem; */
+  vertical-align: middle;
+}
+
+/* line 67, src/styles/components/_schedule.scss */
+.schedule-table th {
+  text-align: center;
+  /* color: #fdc200; */
+}
+
+/* line 71, src/styles/components/_schedule.scss */
+.schedule-table th span {
+  display: block;
+  /* color: #fff; */
+  /* font-size: 0.875rem; */
+}
+
+/* line 78, src/styles/components/_schedule.scss */
+.schedule-table th,
+.schedule-table td {
+  position: relative;
+  /* padding: 1.25rem 1.875rem; */
+}
+
+/* line 85, src/styles/components/_schedule.scss */
+.schedule-table tbody th,
+.schedule-table tbody td {
+  border-top: solid 1px #ababab;
+}
+
+/* line 90, src/styles/components/_schedule.scss */
+.schedule-table tbody [rowspan] {
+  border-left: solid 1px #ababab;
+}
+
+/* line 94, src/styles/components/_schedule.scss */
+.schedule-table tbody [colspan='3'] {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* line 98, src/styles/components/_schedule.scss */
+.schedule-table tbody td {
+  min-width: 17.5rem;
+}
+.schedule-table td div {
+  display: none;
+}
+
+@media (min-width: 62em) {
+  /* line 98, src/styles/components/_schedule.scss */
+  .schedule-table tbody td {
+    min-width: auto;
+  }
+}
+
+/* line 107, src/styles/components/_schedule.scss */
+.schedule-table p {
+  max-width: 100%;
+}
+
+/* line 111, src/styles/components/_schedule.scss */
+.schedule-table .highlight-uppercase {
+  text-transform: uppercase;
+}
 
 /**** local ****/
 #local {
