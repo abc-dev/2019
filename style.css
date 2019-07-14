@@ -738,6 +738,19 @@ h2.amarelo:before {
   background-color: #fff;
 }
 
+#programacao .container {
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+#programacao p {
+  font-size: 1.5em;
+  max-width: 530px;
+  text-align: center;
+  margin: auto;
+}
+
 #programacao h2 {
   margin: auto;
   margin-bottom: 50px;
