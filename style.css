@@ -852,7 +852,7 @@ h2.amarelo:before {
 .schedule-table a:hover,
 .schedule-table a:focus {
   color: #fdc200;
-  border-color: transparent;
+  border-color: #ff0259;
 }
 
 .alan-turing a {
@@ -860,7 +860,7 @@ h2.amarelo:before {
 }
 .alan-turing a:hover,
 .alan-turing a:focus {
-  border-color: transparent;
+  border-color: #000;
 }
 
 .grace-hopper a {
@@ -868,7 +868,8 @@ h2.amarelo:before {
 }
 .grace-hopper a:hover,
 .grace-hopper a:focus {
-  border-color: transparent;
+  color: #ff0259;
+  border-color: #000;
 }
 
 .schedule-table .title {
